@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:drawable="@drawable/image_vector" >
+  <target
+		android:name="CircleArrow"
+		android:animation="@anim/slide_twoway" />
+  <target
+		android:name="Arrow"
+		android:animation="@anim/rotate" />
+  <target
+		android:name="ArrowPath"
+		android:animation="@anim/alpha" />
+</animated-vector>
