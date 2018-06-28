@@ -6,7 +6,12 @@
              x:Class="XFAVDSample.MainPage">
 
     <StackLayout>
-        <customcontrols:AnimatedImageView SourceUrl="animated_image" HeightRequest="168" WidthRequest="640" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <customcontrols:AnimatedImageView 
+            SourceUrl="animated_image" 
+            HeightRequest="42" 
+            WidthRequest="160" 
+            HorizontalOptions="Center" 
+            VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
